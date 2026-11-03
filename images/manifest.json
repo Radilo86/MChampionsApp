@@ -1,0 +1,79 @@
+{
+ "version": "502d909255",
+ "count": 3155,
+ "bytes": 88292755,
+ "chunks": [
+  {
+   "file": "pack-01.zip",
+   "count": 290,
+   "bytes": 8020304,
+   "sha1": "0a8a42c469399b2d84c5e00f57d8e14d3852b5fa"
+  },
+  {
+   "file": "pack-02.zip",
+   "count": 283,
+   "bytes": 8023022,
+   "sha1": "a04c486e74a44732d972b20cafdf9516acec1871"
+  },
+  {
+   "file": "pack-03.zip",
+   "count": 295,
+   "bytes": 8008436,
+   "sha1": "79a85fc7c7bfab948cbfc0624bd9737c52908333"
+  },
+  {
+   "file": "pack-04.zip",
+   "count": 287,
+   "bytes": 8008913,
+   "sha1": "0421b3b409324d2f5c49068bd2f12b5c57fb02e6"
+  },
+  {
+   "file": "pack-05.zip",
+   "count": 280,
+   "bytes": 7998398,
+   "sha1": "946d71f0d0482c933dfdb62ea1116e6d8ae343cf"
+  },
+  {
+   "file": "pack-06.zip",
+   "count": 289,
+   "bytes": 8015219,
+   "sha1": "b0d73079817c8d94609541cfbaa2c862cff8bf3e"
+  },
+  {
+   "file": "pack-07.zip",
+   "count": 289,
+   "bytes": 8013547,
+   "sha1": "d409e01b42db91b35b1c03e6818c090dae23f233"
+  },
+  {
+   "file": "pack-08.zip",
+   "count": 280,
+   "bytes": 8004046,
+   "sha1": "bb9c088175e00db178cc3d56a9d3fc5bfba7d0bb"
+  },
+  {
+   "file": "pack-09.zip",
+   "count": 279,
+   "bytes": 8023946,
+   "sha1": "1530a5e7afa0dc82ec0ffc0ea8024bb792b08cf6"
+  },
+  {
+   "file": "pack-10.zip",
+   "count": 299,
+   "bytes": 8006080,
+   "sha1": "c6af6a7198f3479160e02c145630d07c2ea8cf72"
+  },
+  {
+   "file": "pack-11.zip",
+   "count": 278,
+   "bytes": 8016761,
+   "sha1": "6a5071ad36485694f25de8aad084d09b4b973814"
+  },
+  {
+   "file": "pack-12.zip",
+   "count": 6,
+   "bytes": 154083,
+   "sha1": "dc1cc3031837c6baa55699f84010a3bec7d43a7f"
+  }
+ ]
+}
