@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diagnóstico — Marvel Champions Offline</title>
+<style>
+ body{font:15px/1.5 system-ui,Arial,sans-serif;background:#23262d;color:#e6e9ef;margin:0;padding:18px;max-width:820px;margin-inline:auto}
+ h1{font-size:22px;margin:0 0 4px} h2{font-size:16px;margin:22px 0 6px} .ok{color:#6fdc8c}.bad{color:#ff7b7b}.warn{color:#f1c40f}
+ code,pre{background:#15171c;border-radius:6px;padding:2px 6px;font-size:13px} pre{padding:10px;overflow:auto;white-space:pre-wrap}
+ button{font:600 15px system-ui;background:#e23636;color:#fff;border:0;border-radius:8px;padding:10px 16px;margin:4px 6px 4px 0}
+ button.s{background:#2d3340} progress{width:100%;height:10px;accent-color:#e23636} li{margin:2px 0}
+</style></head><body>
+<h1>Diagnóstico de la instalación</h1>
+<div class="warn">Esta página comprueba que tu alojamiento (GitHub Pages, Netlify…) tiene <b>todos</b> los archivos de la app.</div>
+<h2>Entorno</h2><pre id="env">…</pre>
+<h2>Archivos</h2><progress id="bar" max="1" value="0"></progress><div id="sum">Comprobando…</div>
+<div id="missing"></div>
+<h2>Acciones</h2>
+<button onclick="location.href='./'">Volver a la app</button>
+<button class="s" onclick="reset()">Borrar instalación y caché (empezar de cero)</button>
+<div id="act"></div>
+<script>
+const out = (id, t) => document.getElementById(id).textContent = t;
+(async () => {
+  const sw = "serviceWorker" in navigator ? (navigator.serviceWorker.controller ? "activo y controlando esta página" : "disponible (aún no controla esta página)") : "NO disponible";
+  let caches_ = "n/d"; try { caches_ = (await caches.keys()).join(", ") || "(vacío)"; } catch (e) {}
+  out("env", [`Dirección:        ${location.href}`, `Segura (https):   ${isSecureContext ? "sí" : "NO — el modo sin conexión no funcionará"}`, `Service worker:   ${sw}`,
+    `Aislamiento:      ${self.crossOriginIsolated ? "sí" : "no (se activa tras la primera carga)"}`, `Cachés:           ${caches_}`, `Navegador:        ${navigator.userAgent}`].join("\n"));
+  let list;
+  try { const r = await fetch("app-files.json", { cache: "no-store" }); if (!r.ok) throw new Error("HTTP " + r.status); list = await r.json(); }
+  catch (e) { out("sum", "No se encuentra app-files.json: la carpeta no se ha subido completa (¿falta ese archivo o index.html?). " + e.message); document.getElementById("sum").className = "bad"; return; }
+  const files = list.files, bad = [], badOpt = []; let done = 0;
+  const queue = files.slice();
+  const work = async () => { for (let f = queue.shift(); f; f = queue.shift()) {
+    let ok = false;
+    try { const r = await fetch(f.path, { method: "HEAD", cache: "no-store" }); ok = r.ok; if (r.ok && f.size) { const len = +r.headers.get("content-length"); if (len && len !== f.size && !r.headers.get("content-encoding")) ok = false; } } catch (e) {}
+    if (!ok) (f.optional ? badOpt : bad).push(f);
+    document.getElementById("bar").value = ++done / files.length; } };
+  await Promise.all(Array.from({ length: 6 }, work));
+  const sum = document.getElementById("sum");
+  if (!bad.length) { sum.className = "ok"; sum.textContent = `✔ Los ${files.length - badOpt.length} archivos necesarios están en el alojamiento.`; }
+  else { sum.className = "bad"; sum.textContent = `✘ Faltan ${bad.length} archivos necesarios (o tienen un tamaño distinto: subida incompleta).`; }
+  const box = document.getElementById("missing");
+  const show = (arr, title, cls) => { if (!arr.length) return; const h = document.createElement("div"); h.className = cls; h.textContent = title; box.appendChild(h);
+    const ul = document.createElement("ul"); arr.forEach((f) => { const li = document.createElement("li"); li.innerHTML = "<code></code>"; li.firstChild.textContent = f.path; ul.appendChild(li); }); box.appendChild(ul); };
+  show(bad, "Sube estos archivos (misma ruta y nombre):", "bad");
+  show(badOpt, "Opcional — ilustraciones que faltan (la app funciona igual, con cartas dibujadas):", "warn");
+  if (!bad.length) { const t = document.createElement("div"); t.className = "ok"; t.textContent = "Si la app sigue sin arrancar, pulsa «Borrar instalación…» y vuelve a abrirla."; box.appendChild(t); }
+})();
+async function reset() {
+  try { for (const r of await navigator.serviceWorker.getRegistrations()) await r.unregister(); for (const k of await caches.keys()) await caches.delete(k); sessionStorage.clear();
+    out("act", "Hecho: instalación y caché borradas (tus partidas y mazos NO se borran). Vuelve a la app."); } catch (e) { out("act", "Error: " + e); }
+}
+</script></body></html>

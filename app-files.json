@@ -1,0 +1,146 @@
+{
+"version": "b8e3fccf58",
+"files": [
+{
+"path": "cards-index.json",
+"size": 963023
+},
+{
+"path": "engine.js",
+"size": 8406
+},
+{
+"path": "engine.zip",
+"size": 2916790
+},
+{
+"path": "fflate.min.js",
+"size": 33044
+},
+{
+"path": "icons/icon-192.png",
+"size": 1414
+},
+{
+"path": "icons/icon-512.png",
+"size": 4001
+},
+{
+"path": "icons/maskable-512.png",
+"size": 3681
+},
+{
+"path": "index.html",
+"size": 2485
+},
+{
+"path": "manifest.webmanifest",
+"size": 696
+},
+{
+"path": "pyodide/pyodide-lock.json",
+"size": 119077
+},
+{
+"path": "pyodide/pyodide.asm.mjs",
+"size": 1250344
+},
+{
+"path": "pyodide/pyodide.asm.wasm",
+"size": 9598218
+},
+{
+"path": "pyodide/pyodide.mjs",
+"size": 17931
+},
+{
+"path": "pyodide/python_stdlib.zip",
+"size": 2545637
+},
+{
+"path": "shell.js",
+"size": 19460
+},
+{
+"path": "ui.zip",
+"size": 538798
+},
+{
+"path": "worker.js",
+"size": 4619
+},
+{
+"path": "sw.js",
+"size": 15877
+},
+{
+"path": "diagnostico.html",
+"size": 4681
+},
+{
+"path": "images/manifest.json",
+"size": 1601,
+"optional": true
+},
+{
+"path": "images/pack-01.zip",
+"size": 8020304,
+"optional": true
+},
+{
+"path": "images/pack-02.zip",
+"size": 8023022,
+"optional": true
+},
+{
+"path": "images/pack-03.zip",
+"size": 8008436,
+"optional": true
+},
+{
+"path": "images/pack-04.zip",
+"size": 8008913,
+"optional": true
+},
+{
+"path": "images/pack-05.zip",
+"size": 7998398,
+"optional": true
+},
+{
+"path": "images/pack-06.zip",
+"size": 8015219,
+"optional": true
+},
+{
+"path": "images/pack-07.zip",
+"size": 8013547,
+"optional": true
+},
+{
+"path": "images/pack-08.zip",
+"size": 8004046,
+"optional": true
+},
+{
+"path": "images/pack-09.zip",
+"size": 8023946,
+"optional": true
+},
+{
+"path": "images/pack-10.zip",
+"size": 8006080,
+"optional": true
+},
+{
+"path": "images/pack-11.zip",
+"size": 8016761,
+"optional": true
+},
+{
+"path": "images/pack-12.zip",
+"size": 154083,
+"optional": true
+}
+]
+}
