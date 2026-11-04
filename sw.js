@@ -3,7 +3,7 @@
 //  * adds COOP/COEP headers (needed for SharedArrayBuffer, i.e. for the blocking bridge to the Python engine)
 //  * emulates the routes of the original server: clean URLs (/scene -> scene.html) and card pictures (/01001a)
 //  * card pictures: user imported pack (Cache Storage) first, otherwise a generated SVG card
-const VERSION = "b8e3fccf58";
+const VERSION = "f23f11a9d6";
 const CACHE = "marvel-app-" + VERSION;
 const USER_ASSETS = "marvel-user-assets";
 const PRECACHE = [
@@ -197,9 +197,15 @@ function cardsIndex() {
     return indexPromise;
 }
 
+async function customInfo(id) {
+    const hit = await userAsset("__index_custom.json");
+    if (!hit) return null;
+    try { const index = await hit.json(); return index[id] || index[id.toLowerCase()] || null; } catch (e) { return null; }
+}
+
 async function cardPicture(id) {
     const index = await cardsIndex();
-    const info = index[id] || index[id.toLowerCase()];
+    const info = index[id] || index[id.toLowerCase()] || (BACKS[id] ? null : await customInfo(id));
     if (info && info.l) {                      // "linked" cards share the picture of another card
         const linked = await userAsset(info.l);
         if (linked) return linked;

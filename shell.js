@@ -91,6 +91,7 @@ async function main() {
     await engine.start();
 
     window.marvelShell = shellApi(engine);
+    publishCustomIndex(engine);
     const hash = decodeURIComponent(location.hash.slice(1));
     frame.src = /^ui\//.test(hash) ? hash : "ui/main.html";
     frame.onload = () => { splash.classList.add("hidden"); frame.classList.add("visible"); };
@@ -114,8 +115,9 @@ function shellApi(engine) {
         async assetCount() { const c = await caches.open("marvel-user-assets"); return (await c.keys()).length; },
         async clearAssets() { localStorage.removeItem("marvel-pack"); return caches.delete("marvel-user-assets"); },
         packInfo, installPack,
-        portraitPhone,
+        portraitPhone, portraitTouch,
         exportBackup: () => exportBackup(engine), importBackup: (file) => importBackup(engine, file),
+        importContent: (file) => importContent(engine, file), removeContent: (id) => removeContent(engine, id),
         lastBackup: () => localStorage.getItem("marvel-last-backup"),
         toggleRotate: () => { localStorage.setItem("marvel-rotate", frame.classList.contains("rotated") ? "off" : "on"); applyRotation(); },
         reload: () => location.reload(),
@@ -130,11 +132,28 @@ const MIME = { jpg: "image/jpeg", jpeg: "image/jpeg", png: "image/png", webp: "i
 const extOf = (n) => (n.lastIndexOf(".") > 0 ? n.slice(n.lastIndexOf(".") + 1).toLowerCase() : "");
 const baseOf = (n) => n.split(/[\\/]/).pop();
 
+// The UI expects every card picture in portrait: landscape pictures (schemes) are rotated 90° counter-clockwise,
+// exactly like the desktop server (and the build of the picture pack) did.
+async function portrait(blob, ext) {
+    if (!["jpg", "jpeg", "png", "webp"].includes(ext) || typeof createImageBitmap !== "function") return blob;
+    try {
+        const bmp = await createImageBitmap(blob);
+        if (bmp.width <= bmp.height) { bmp.close && bmp.close(); return blob; }
+        const canvas = typeof OffscreenCanvas === "function" ? new OffscreenCanvas(bmp.height, bmp.width) : Object.assign(document.createElement("canvas"), { width: bmp.height, height: bmp.width });
+        const ctx = canvas.getContext("2d");
+        ctx.translate(0, bmp.width); ctx.rotate(-Math.PI / 2); ctx.drawImage(bmp, 0, 0);
+        bmp.close && bmp.close();
+        if (canvas.convertToBlob) return await canvas.convertToBlob({ type: "image/jpeg", quality: 0.9 });
+        return await new Promise((r) => canvas.toBlob(r, "image/jpeg", 0.9));
+    } catch (e) { return blob; }
+}
+
 async function putAsset(cache, fileName, blob) {
     const name = baseOf(fileName);
     const ext = extOf(name);
     if (!MIME[ext] || name.startsWith("._")) return 0;
-    const type = MIME[ext];
+    blob = await portrait(blob, ext);
+    const type = ["jpg", "jpeg", "png", "webp"].includes(ext) && blob.type === "image/jpeg" ? "image/jpeg" : MIME[ext];
     const headers = { "Content-Type": type };
     // card pictures are stored once, under their id ("01001a"); the service worker also resolves "01001a.jpg" to it
     const isPicture = ["jpg", "jpeg", "png", "webp"].includes(ext);
@@ -249,8 +268,67 @@ function setupWakeLock() {
     document.addEventListener("visibilitychange", request); request();
 }
 
+// ----- Content packs (new campaigns / scenarios / cards): validated by the engine, then installed in the device -----
+async function readPack(file) {
+    const fflate = await loadFflate();
+    const all = fflate.unzipSync(new Uint8Array(await file.arrayBuffer()));
+    let names = Object.keys(all).filter((n) => !n.endsWith("/") && !n.includes("__MACOSX") && !baseOf(n).startsWith("."));
+    let strip = "";
+    if (!names.includes("contenido.json")) {                    // a ZIP of the folder: drop its top folder
+        const roots = new Set(names.map((n) => n.split("/")[0]));
+        if (roots.size === 1) strip = [...roots][0] + "/";
+    }
+    const files = {}, images = [], bytes = {};
+    for (const n of names) {
+        const rel = n.startsWith(strip) ? n.slice(strip.length) : n;
+        bytes[rel] = all[n];
+        if (/\.(jpe?g|png|webp)$/i.test(rel)) images.push(rel); else files[rel] = fflate.strFromU8(all[n]);
+    }
+    return { files, images, bytes };
+}
+
+async function importContent(engine, file) {
+    const fflate = await loadFflate();
+    let pack;
+    try { pack = await readPack(file); } catch (e) { return { ok: false, errors: ["El archivo no es un ZIP válido."], warnings: [] }; }
+    const r = await engine.request("POST", "content_check", JSON.stringify({ files: pack.files, images: pack.images }));
+    const report = JSON.parse(r.body);
+    if (!report.ok) return report;
+    try { engine.worker.terminate(); } catch (e) {}          // nothing may write while the pack is installed
+    for (const [target, source] of Object.entries(report.plan)) await engine.store.put(target, fflate.strToU8(pack.files[source]));
+    const cache = await caches.open("marvel-user-assets");
+    for (const source of Object.values(report.images)) await putAsset(cache, baseOf(source), new Blob([pack.bytes[source]]));
+    await engine.store.put(report.manifest_path, fflate.strToU8(JSON.stringify({ ...report.pack, installed: new Date().toISOString(),
+        files: Object.keys(report.plan), images: Object.keys(report.images), summary: report.summary })));
+    report.installed = true;
+    return report;
+}
+
+async function removeContent(engine, id) {
+    const list = JSON.parse((await engine.request("GET", "content_list")).body);
+    const pack = list.find((p) => p.id === id);
+    if (!pack) throw new Error("Ese contenido no está instalado.");
+    if (pack.builtin) throw new Error("Este contenido viene incluido en la app y no se puede quitar.");
+    try { engine.worker.terminate(); } catch (e) {}
+    for (const path of pack.files || []) await engine.store.del(path);
+    const cache = await caches.open("marvel-user-assets");
+    for (const cid of pack.images || []) await cache.delete(new URL("__a/" + String(cid).toLowerCase(), base).href);
+    await engine.store.del("content/" + id + ".json");
+    return pack;
+}
+
+// cards of content packs have no entry in cards-index.json: give the service worker their data to draw them
+async function publishCustomIndex(engine) {
+    try {
+        const r = await engine.request("GET", "cards_index_custom");
+        const cache = await caches.open("marvel-user-assets");
+        await cache.put(new URL("__a/__index_custom.json", base).href, new Response(r.body, { headers: { "Content-Type": "application/json" } }));
+    } catch (e) { /* drawing is a convenience */ }
+}
+
 // ----- Backup: ONE zip with everything the app keeps on the device (decks, saves, autosave, statistics, settings) -----
-const PERSIST_PREFIXES = ["replays/", "deck/", "statistics.json", "settings/", "save_", "data/scenarios_custom/"];
+const PERSIST_PREFIXES = ["replays/", "deck/", "statistics.json", "settings/", "save_", "data/scenarios_custom/",
+    "data/cards_custom/", "cards/custom/", "data/encounter_sets_custom/", "data/sets_custom/", "content/"];   // content packs travel in the backup too
 const safePath = (p) => !p.includes("..") && !p.startsWith("/") && !p.includes("\\") && PERSIST_PREFIXES.some((x) => p.startsWith(x));
 const SKIP_LOCAL = new Set(["marvel-pack", "marvel-last-backup", "marvel-reloaded", "marvel-rotate"]);
 function uiDocument() { try { return frame.contentDocument; } catch (e) { return null; } }
@@ -315,12 +393,15 @@ async function importBackup(engine, file) {
 
 // Portrait phone + game board: rotate the board 90 degrees (it is a landscape layout) so it uses the whole screen.
 // A ⟳ button in the board toolbar turns it off / on; the choice is remembered.
-const portraitPhone = () => matchMedia("(orientation: portrait)").matches && Math.min(innerWidth, innerHeight) < 700;
+const portraitPhone = () => matchMedia("(orientation: portrait)").matches && Math.min(innerWidth, innerHeight) < 500;
+const portraitTouch = () => matchMedia("(orientation: portrait)").matches && matchMedia("(pointer: coarse)").matches;
 function inGame() {
     try { return /marvel\.html/.test(frame.contentWindow.location.pathname) && !!frame.contentDocument.getElementById("scene"); } catch (e) { return false; }
 }
 function applyRotation() {
-    const on = portraitPhone() && inGame() && localStorage.getItem("marvel-rotate") !== "off";
+    // phones rotate by default (the board is unreadable otherwise); tablets only when the player asks (⟳)
+    const pref = localStorage.getItem("marvel-rotate");
+    const on = inGame() && portraitTouch() && (portraitPhone() ? pref !== "off" : pref === "on");
     if (frame.classList.contains("rotated") !== on) {
         frame.classList.toggle("rotated", on);
         // the iframe changed size: let the board recompute its scale
