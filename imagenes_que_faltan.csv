@@ -1,0 +1,645 @@
+id,nombre,tipo,caja,set,categoria
+50001a,Maria Hill,Hero,50. Agents of S.H.I.E.L.D.,Maria Hill,carta sin imagen
+50001b,Maria Hill,AlterEgo,50. Agents of S.H.I.E.L.D.,Maria Hill,carta sin imagen
+50002,Nick Fury,Ally,50. Agents of S.H.I.E.L.D.,Maria Hill,carta sin imagen
+50003,All-Points Bulletin,Event,50. Agents of S.H.I.E.L.D.,Maria Hill,carta sin imagen
+50004,On the Double,Event,50. Agents of S.H.I.E.L.D.,Maria Hill,carta sin imagen
+50005,Reinforcements,Event,50. Agents of S.H.I.E.L.D.,Maria Hill,carta sin imagen
+50006,The Hard Call,Event,50. Agents of S.H.I.E.L.D.,Maria Hill,carta sin imagen
+50007,Special Funding,Resource,50. Agents of S.H.I.E.L.D.,Maria Hill,carta sin imagen
+50008,Support Staff,Support,50. Agents of S.H.I.E.L.D.,Maria Hill,carta sin imagen
+50009,The Iliad,Support,50. Agents of S.H.I.E.L.D.,Maria Hill,carta sin imagen
+50010,Life Model Decoy,Upgrade,50. Agents of S.H.I.E.L.D.,Maria Hill,carta sin imagen
+50011,S.H.I.E.L.D. Director,Upgrade,50. Agents of S.H.I.E.L.D.,Maria Hill,carta sin imagen
+50012,Victoria Hand,Ally,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50013,Slingshot,Ally,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50014,Organizational Support,Resource,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50015,Agents of S.H.I.E.L.D.,Support,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50017,The Circe,Support,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50018,The Bellerophon,Support,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50019,The Douglass,Support,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50020,The Pericles,Support,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50022,Grant Ward,Ally,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50023,Melinda May,Ally,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50024,Super Spies,Event,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50028,Front Organization,Support,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50029,Press Conference,Obligation,50. Agents of S.H.I.E.L.D.,Maria Hill,carta sin imagen
+50030,Controller,Minion,50. Agents of S.H.I.E.L.D.,Maria Hill Nemesis,carta sin imagen
+50031,Army of the Controlled,SideScheme,50. Agents of S.H.I.E.L.D.,Maria Hill Nemesis,carta sin imagen
+50032,Controlled Innocents,Environment,50. Agents of S.H.I.E.L.D.,Maria Hill Nemesis,carta sin imagen
+50033,Diabolical Discs,Treachery,50. Agents of S.H.I.E.L.D.,Maria Hill Nemesis,carta sin imagen
+50034a,Nick Fury,Hero,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50034b,Nick Fury,AlterEgo,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50035a,Assault,Upgrade,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50035b,Stealth,Upgrade,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50036,Maria Hill,Ally,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50037,Concentrated Fire,Event,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50038,Covert Surveillance,Event,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50039,Spray Fire,Event,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50040,Fury's Flying Car,Support,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50041,Safe House #221,Support,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50042,EM Shield,Upgrade,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50043,Eyepatch Camera,Upgrade,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50044,Fury's Watch,Upgrade,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50045,Intelligence Analysis,Upgrade,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50046,Secret Agent,Upgrade,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50050,Informant,Upgrade,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50051,Intelligence,Upgrade,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50052,Prism Dust,Upgrade,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50054,"Nick Fury, Sr.",Ally,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50055,Jemma Simmons,Support,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50056,Leo Fitz,Support,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50058,Practiced Plan,Upgrade,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+50059,Discovered,Obligation,50. Agents of S.H.I.E.L.D.,Nick Fury,carta sin imagen
+50060,Orion,Minion,50. Agents of S.H.I.E.L.D.,Nick Fury Nemesis,carta sin imagen
+50061,Acquire Infinity Formula,SideScheme,50. Agents of S.H.I.E.L.D.,Nick Fury Nemesis,carta sin imagen
+50062,Leviathan Soldier,Minion,50. Agents of S.H.I.E.L.D.,Nick Fury Nemesis,carta sin imagen
+50063,Cold Storage,Treachery,50. Agents of S.H.I.E.L.D.,Nick Fury Nemesis,carta sin imagen
+50064,Black Widow,Villain,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50065,Black Widow,Villain,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50066,Black Widow,Villain,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50067a,The Widow's Web,MainScheme,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50067b,The Widow's Web,MainScheme,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50068,Black Widow's Gauntlet,Attachment,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50069,Grappling Hook,Attachment,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50070,Night Vision Goggles,Attachment,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50071,Stun Net,Attachment,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50072,A.I.M. Commando,Minion,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50073,A.I.M. Grunt,Minion,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50074,Automated Defenses,SideScheme,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50075,Destroy Evidence,SideScheme,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50076,Attacrobatics,Treachery,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50077,Covert Ops,Treachery,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50078,Dance of Death,Treachery,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50079,Widow's Bite,Treachery,50. Agents of S.H.I.E.L.D.,Black Widow,carta sin imagen
+50080,A.I.M. Abductor,Minion,50. Agents of S.H.I.E.L.D.,A.I.M. Abduction,carta sin imagen
+50081,Abduct Superhumans,SideScheme,50. Agents of S.H.I.E.L.D.,A.I.M. Abduction,carta sin imagen
+50082,Nabbed!,Treachery,50. Agents of S.H.I.E.L.D.,A.I.M. Abduction,carta sin imagen
+50083,A.I.M. Scientist,Minion,50. Agents of S.H.I.E.L.D.,A.I.M. Science,carta sin imagen
+50084,A.I.M. Soldier,Minion,50. Agents of S.H.I.E.L.D.,A.I.M. Science,carta sin imagen
+50085,Mad Science,SideScheme,50. Agents of S.H.I.E.L.D.,A.I.M. Science,carta sin imagen
+50086a,Batroc,Villain,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50086b,Batroc,Villain,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50087a,Infiltrate A.I.M. Island Embassy,MainScheme,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50087b,Infiltrate A.I.M. Island Embassy,MainScheme,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50088a,Locate Missing Person,MainScheme,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50088b,Locate Missing Person,MainScheme,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50089a,Extract Captives,MainScheme,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50089b,Extract Captives,MainScheme,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50090a,Alert Level,Environment,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50090b,Alert Level,Environment,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50091,Rescued Captive,Ally,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50092,Heightened Reflexes,Attachment,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50093,Embassy Guard,Minion,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50094,Embassy Patrol,Minion,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50095,Commandeer Security Office,SideScheme,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50096,Leaping Kick,Treachery,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50097,Security Cameras,Treachery,50. Agents of S.H.I.E.L.D.,Batroc,carta sin imagen
+50098,Machete,Minion,50. Agents of S.H.I.E.L.D.,Batroc's Brigade,carta sin imagen
+50099,Rapido,Minion,50. Agents of S.H.I.E.L.D.,Batroc's Brigade,carta sin imagen
+50100,Zaran,Minion,50. Agents of S.H.I.E.L.D.,Batroc's Brigade,carta sin imagen
+50101,Batroc's Brigade,SideScheme,50. Agents of S.H.I.E.L.D.,Batroc's Brigade,carta sin imagen
+50102,Soldiers of Fortune,Treachery,50. Agents of S.H.I.E.L.D.,Batroc's Brigade,carta sin imagen
+50103a,M.O.D.O.K.,Villain,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50103b,M.O.D.O.K.,Villain,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50104a,Upgrading Adaptoids,MainScheme,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50104b,Upgrading Adaptoids,MainScheme,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50105a,Holding Cell,Environment,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50105b,Flying Inhuman,Ally,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50106a,Holding Cell,Environment,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50106b,Psionic Inhuman,Ally,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50107a,Holding Cell,Environment,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50107b,Sarah Garza,Ally,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50108a,Holding Cell,Environment,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50108b,Strong Inhuman,Ally,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50109,Flying Upgrade,Environment,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50110,Psionic Upgrade,Environment,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50111,Sarah Garza Upgrade,Environment,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50112,Strong Upgrade,Environment,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50113,Adaptoid,Minion,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50114,Automated Mobile Unit,Attachment,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50115,Focusing Crystal,Attachment,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50116,Nanobots,Attachment,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50117,Psionic Force Field,Attachment,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50118,Psionic Machetes,Attachment,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50119,Reverse Engineering,Attachment,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50120,A.I.M. Jailer,Minion,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50121,Hostage Situation,SideScheme,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50122,Psionic Enhancement,SideScheme,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50123,"""It's Alive!""",Treachery,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50124,Psionic Blast,Treachery,50. Agents of S.H.I.E.L.D.,M.O.D.O.K,carta sin imagen
+50125,Scientist Supreme,Minion,50. Agents of S.H.I.E.L.D.,Scientist Supreme,carta sin imagen
+50126,Monica Rappaccini,Minion,50. Agents of S.H.I.E.L.D.,Scientist Supreme,carta sin imagen
+50127,Diplomatic Immunity,SideScheme,50. Agents of S.H.I.E.L.D.,Scientist Supreme,carta sin imagen
+50128,Diplomatic Sanctions,Treachery,50. Agents of S.H.I.E.L.D.,Scientist Supreme,carta sin imagen
+50129a,Citizen V,Villain,50. Agents of S.H.I.E.L.D.,Thunderbolts,carta sin imagen
+50129b,Citizen V,Villain,50. Agents of S.H.I.E.L.D.,Thunderbolts,carta sin imagen
+50130a,Apprehending Rogue Agents,MainScheme,50. Agents of S.H.I.E.L.D.,Thunderbolts,carta sin imagen
+50130b,Apprehending Rogue Agents,MainScheme,50. Agents of S.H.I.E.L.D.,Thunderbolts,carta sin imagen
+50131a,"Justice, Like Lightning",Environment,50. Agents of S.H.I.E.L.D.,Thunderbolts,carta sin imagen
+50131b,Thunderbolt Backup,Environment,50. Agents of S.H.I.E.L.D.,Thunderbolts,carta sin imagen
+50132,Citizen V's Sword,Attachment,50. Agents of S.H.I.E.L.D.,Thunderbolts,carta sin imagen
+50133,Jolt,Minion,50. Agents of S.H.I.E.L.D.,Thunderbolts,carta sin imagen
+50134,Innocent Bystanders,Obligation,50. Agents of S.H.I.E.L.D.,Thunderbolts,carta sin imagen
+50135,The Coming Storm,SideScheme,50. Agents of S.H.I.E.L.D.,Thunderbolts,carta sin imagen
+50136,Rumbling Thunder,SideScheme,50. Agents of S.H.I.E.L.D.,Thunderbolts,carta sin imagen
+50137,Down but Not Out,Treachery,50. Agents of S.H.I.E.L.D.,Thunderbolts,carta sin imagen
+50138,Tap In,Treachery,50. Agents of S.H.I.E.L.D.,Thunderbolts,carta sin imagen
+50139,Moonstone,Minion,50. Agents of S.H.I.E.L.D.,Gravitational Pull,carta sin imagen
+50140,Rule the Skies,SideScheme,50. Agents of S.H.I.E.L.D.,Gravitational Pull,carta sin imagen
+50141,Gravitational Pull,Treachery,50. Agents of S.H.I.E.L.D.,Gravitational Pull,carta sin imagen
+50142,Psychological Manipulation,Treachery,50. Agents of S.H.I.E.L.D.,Gravitational Pull,carta sin imagen
+50143,Songbird,Minion,50. Agents of S.H.I.E.L.D.,Hard Sound,carta sin imagen
+50144,Solid Sound Constructs,Attachment,50. Agents of S.H.I.E.L.D.,Hard Sound,carta sin imagen
+50145,Hard Sound Bindings,Attachment,50. Agents of S.H.I.E.L.D.,Hard Sound,carta sin imagen
+50146,Sonic Bubble,SideScheme,50. Agents of S.H.I.E.L.D.,Hard Sound,carta sin imagen
+50147,Hard Sound,Treachery,50. Agents of S.H.I.E.L.D.,Hard Sound,carta sin imagen
+50148,Black Widow,Minion,50. Agents of S.H.I.E.L.D.,Pale Little Spider,carta sin imagen
+50149,Handspring,Attachment,50. Agents of S.H.I.E.L.D.,Pale Little Spider,carta sin imagen
+50150,Pride of the Red Room,SideScheme,50. Agents of S.H.I.E.L.D.,Pale Little Spider,carta sin imagen
+50151,Pale Little Spider,Treachery,50. Agents of S.H.I.E.L.D.,Pale Little Spider,carta sin imagen
+50152,Radioactive Man,Minion,50. Agents of S.H.I.E.L.D.,Power of the Atom,carta sin imagen
+50153,Radiation Exposure,Attachment,50. Agents of S.H.I.E.L.D.,Power of the Atom,carta sin imagen
+50154,Runaway Nuclear Reaction,SideScheme,50. Agents of S.H.I.E.L.D.,Power of the Atom,carta sin imagen
+50155,Power of the Atom,Treachery,50. Agents of S.H.I.E.L.D.,Power of the Atom,carta sin imagen
+50156,MACH-IV,Minion,50. Agents of S.H.I.E.L.D.,Supersonic,carta sin imagen
+50157,Blasters,Attachment,50. Agents of S.H.I.E.L.D.,Supersonic,carta sin imagen
+50158,Heat-Seeking Missiles,Attachment,50. Agents of S.H.I.E.L.D.,Supersonic,carta sin imagen
+50159,Aerial Dogfight,SideScheme,50. Agents of S.H.I.E.L.D.,Supersonic,carta sin imagen
+50160,Supersonic,Treachery,50. Agents of S.H.I.E.L.D.,Supersonic,carta sin imagen
+50161,Batroc,Minion,50. Agents of S.H.I.E.L.D.,The Leaper,carta sin imagen
+50162,Coup de Foudre,SideScheme,50. Agents of S.H.I.E.L.D.,The Leaper,carta sin imagen
+50163,Batroc the Leaper,Treachery,50. Agents of S.H.I.E.L.D.,The Leaper,carta sin imagen
+50164,Parcours du Combattant,Treachery,50. Agents of S.H.I.E.L.D.,The Leaper,carta sin imagen
+50165a,Baron Zemo,Villain,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50165b,Baron Zemo,Villain,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50166a,Baron Zemo,Villain,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50166b,Baron Zemo,Villain,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50167a,Zemo's Manipulations,MainScheme,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50167b,Zemo's Manipulations,MainScheme,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50168a,The Accusation,MainScheme,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50168b,The Accusation,MainScheme,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50169a,Fighting Zemo,MainScheme,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50169b,Fighting Zemo,MainScheme,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50170,Baron Zemo's Sword,Attachment,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50171,Reluctant Foe,Attachment,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50172,S.H.I.E.L.D. Agent,Minion,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50173,Divided Loyalties,SideScheme,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50174,Undermine Support,SideScheme,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50175,Battle of Wits,Treachery,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50176,Might Makes Right,Treachery,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50177,The Ends Justify the Means,Treachery,50. Agents of S.H.I.E.L.D.,Baron Zemo,carta sin imagen
+50178,S.H.I.E.L.D. Trooper,Minion,50. Agents of S.H.I.E.L.D.,S.H.I.E.L.D.,carta sin imagen
+50179,Arrest Warrant,Obligation,50. Agents of S.H.I.E.L.D.,S.H.I.E.L.D.,carta sin imagen
+50180,Disavowed,SideScheme,50. Agents of S.H.I.E.L.D.,S.H.I.E.L.D.,carta sin imagen
+50181a,Chief Medical Officer,Environment,50. Agents of S.H.I.E.L.D.,S.H.I.E.L.D. Executive Board,carta sin imagen
+50181b,Medical Officer's Aid,Attachment,50. Agents of S.H.I.E.L.D.,S.H.I.E.L.D. Executive Board,carta sin imagen
+50182a,Chief Surveillance Officer,Environment,50. Agents of S.H.I.E.L.D.,S.H.I.E.L.D. Executive Board,carta sin imagen
+50182b,Surveillance Officer's Aid,Attachment,50. Agents of S.H.I.E.L.D.,S.H.I.E.L.D. Executive Board,carta sin imagen
+50183a,Chief Tactical Officer,Environment,50. Agents of S.H.I.E.L.D.,S.H.I.E.L.D. Executive Board,carta sin imagen
+50183b,Tactical Officer's Aid,Attachment,50. Agents of S.H.I.E.L.D.,S.H.I.E.L.D. Executive Board,carta sin imagen
+50184a,A.I.M. Interference ([energy]),Treachery,50. Agents of S.H.I.E.L.D.,S.H.I.E.L.D. Executive Board,carta sin imagen
+50184b,A.I.M. Interference ([mental]),Treachery,50. Agents of S.H.I.E.L.D.,S.H.I.E.L.D. Executive Board,carta sin imagen
+50184c,A.I.M. Interference ([physical]),Treachery,50. Agents of S.H.I.E.L.D.,S.H.I.E.L.D. Executive Board,carta sin imagen
+50185,Medical Records,Evidence,50. Agents of S.H.I.E.L.D.,Executive Board Evidence,carta sin imagen
+50186,Wiretap,Evidence,50. Agents of S.H.I.E.L.D.,Executive Board Evidence,carta sin imagen
+50187,Security Scanner,Evidence,50. Agents of S.H.I.E.L.D.,Executive Board Evidence,carta sin imagen
+50188,Money,Evidence,50. Agents of S.H.I.E.L.D.,Executive Board Evidence,carta sin imagen
+50189,Blackmail,Evidence,50. Agents of S.H.I.E.L.D.,Executive Board Evidence,carta sin imagen
+50190,Ideology,Evidence,50. Agents of S.H.I.E.L.D.,Executive Board Evidence,carta sin imagen
+50191,Security Clearance,Evidence,50. Agents of S.H.I.E.L.D.,Executive Board Evidence,carta sin imagen
+50192,Travel,Evidence,50. Agents of S.H.I.E.L.D.,Executive Board Evidence,carta sin imagen
+50193,Authority,Evidence,50. Agents of S.H.I.E.L.D.,Executive Board Evidence,carta sin imagen
+54021,"Nick Fury, Sr.",Ally,50. Agents of S.H.I.E.L.D.,,carta sin imagen
+51001a,Black Panther,Hero,51. Black Panther,Black Panther (Shuri),carta sin imagen
+51001b,Shuri,AlterEgo,51. Black Panther,Black Panther (Shuri),carta sin imagen
+51002,T'Challa,Ally,51. Black Panther,Black Panther (Shuri),carta sin imagen
+51003,Clawed Strike,Event,51. Black Panther,Black Panther (Shuri),carta sin imagen
+51004,On the Prowl,Event,51. Black Panther,Black Panther (Shuri),carta sin imagen
+51005,Wakanda Forever!,Event,51. Black Panther,Black Panther (Shuri),carta sin imagen
+51006,Vibranium,Resource,51. Black Panther,Black Panther (Shuri),carta sin imagen
+51007,The Elephant's Trunk,Support,51. Black Panther,Black Panther (Shuri),carta sin imagen
+51008,Queen Ramonda,Support,51. Black Panther,Black Panther (Shuri),carta sin imagen
+51009,Aja-Adanna,Upgrade,51. Black Panther,Black Panther (Shuri),carta sin imagen
+51010,Kimoyo Beads,Upgrade,51. Black Panther,Black Panther (Shuri),carta sin imagen
+51011,Panther Claws,Upgrade,51. Black Panther,Black Panther (Shuri),carta sin imagen
+51012,Spider Bites,Upgrade,51. Black Panther,Black Panther (Shuri),carta sin imagen
+51013,Vibranium Suit,Upgrade,51. Black Panther,Black Panther (Shuri),carta sin imagen
+51014,Manifold,Ally,51. Black Panther,,carta sin imagen
+51015,Infiltration,Event,51. Black Panther,,carta sin imagen
+51016,Going Undercover,PlayerSideScheme,51. Black Panther,,carta sin imagen
+51017,Show of Empathy,PlayerSideScheme,51. Black Panther,,carta sin imagen
+51018,The Raft,Support,51. Black Panther,,carta sin imagen
+51019,Invisibility Gear,Upgrade,51. Black Panther,,carta sin imagen
+51021,Sting Operation,Upgrade,51. Black Panther,,carta sin imagen
+51022,Aneka,Ally,51. Black Panther,,carta sin imagen
+51023,Ayo,Ally,51. Black Panther,,carta sin imagen
+51024,Okoye,Ally,51. Black Panther,,carta sin imagen
+51025,Heart of the Panther,Event,51. Black Panther,,carta sin imagen
+51026,Build Support,PlayerSideScheme,51. Black Panther,,carta sin imagen
+51030,Dora Milaje,Support,51. Black Panther,,carta sin imagen
+51031,T'Challa's Shadow,Obligation,51. Black Panther,Black Panther (Shuri),carta sin imagen
+51032,Klaw,Minion,51. Black Panther,Black Panther (Shuri) Nemesis,carta sin imagen
+51033,Manipulated M.U.S.I.C.,SideScheme,51. Black Panther,Black Panther (Shuri) Nemesis,carta sin imagen
+51034,M.U.S.I.C.,Minion,51. Black Panther,Black Panther (Shuri) Nemesis,carta sin imagen
+51035,M.U.S.I.C.,Treachery,51. Black Panther,Black Panther (Shuri) Nemesis,carta sin imagen
+51036,Redemption,Upgrade,51. Black Panther,,carta sin imagen
+51037,White Wolf,Ally,51. Black Panther,,carta sin imagen
+51038,Target Spotter,Support,51. Black Panther,,carta sin imagen
+51039,Joystick,Minion,51. Black Panther,Extreme Risk,carta sin imagen
+51040,Energy Truncheon,Attachment,51. Black Panther,Extreme Risk,carta sin imagen
+51041,Playing for Keeps,SideScheme,51. Black Panther,Extreme Risk,carta sin imagen
+51042,Extreme Risk,Treachery,51. Black Panther,Extreme Risk,carta sin imagen
+52001a,Silk,Hero,52. Silk,Silk,carta sin imagen
+52001b,Cindy Moon,AlterEgo,52. Silk,Silk,carta sin imagen
+52002,Smooth as Silk,Event,52. Silk,Silk,carta sin imagen
+52003,Swinging Silk Kick,Event,52. Silk,Silk,carta sin imagen
+52004,Wallcrawl,Event,52. Silk,Silk,carta sin imagen
+52005,Get the Scoop,PlayerSideScheme,52. Silk,Silk,carta sin imagen
+52006,Albert Moon,Support,52. Silk,Silk,carta sin imagen
+52007,J. Jonah Jameson,Support,52. Silk,Silk,carta sin imagen
+52008,Eidetic Memory,Upgrade,52. Silk,Silk,carta sin imagen
+52009,Organic Webbing,Upgrade,52. Silk,Silk,carta sin imagen
+52010,Outwit,Upgrade,52. Silk,Silk,carta sin imagen
+52011,Spider Claws,Upgrade,52. Silk,Silk,carta sin imagen
+52012,Spider Reflexes,Upgrade,52. Silk,Silk,carta sin imagen
+52013,Scarlet Spider,Ally,52. Silk,,carta sin imagen
+52014,Spider-Byte,Ally,52. Silk,,carta sin imagen
+52016,"""Stop Hitting Yourself""",Event,52. Silk,,carta sin imagen
+52017,Dr. Sinclair,Support,52. Silk,,carta sin imagen
+52018,Energy Shield,Upgrade,52. Silk,,carta sin imagen
+52019,Ready for a Fight,Upgrade,52. Silk,,carta sin imagen
+52020,Stun Gun,Upgrade,52. Silk,,carta sin imagen
+52021,Madame Web,Ally,52. Silk,,carta sin imagen
+52024,Investigative Journalism,Event,52. Silk,,carta sin imagen
+52028,Silk Sense Overload,Obligation,52. Silk,Silk,carta sin imagen
+52029,Morlun,Minion,52. Silk,Silk Nemesis,carta sin imagen
+52030,The Great Hunt,SideScheme,52. Silk,Silk Nemesis,carta sin imagen
+52031,Hunting the Spider-Bride,Treachery,52. Silk,Silk Nemesis,carta sin imagen
+52032,Spider-Man 2099,Ally,52. Silk,,carta sin imagen
+52033,Spider-Woman,Ally,52. Silk,,carta sin imagen
+52034,Quick Quip,Event,52. Silk,,carta sin imagen
+52035,Atlas,Minion,52. Silk,Growing Strong,carta sin imagen
+52036,Grow Invulnerable,SideScheme,52. Silk,Growing Strong,carta sin imagen
+52037,Growing Strong,Treachery,52. Silk,Growing Strong,carta sin imagen
+52038,Titanic Proportions,Treachery,52. Silk,Growing Strong,carta sin imagen
+53001a,Falcon,Hero,53. Falcon,Falcon,carta sin imagen
+53001b,Sam Wilson,AlterEgo,53. Falcon,Falcon,carta sin imagen
+53002,Redwing,Ally,53. Falcon,Falcon,carta sin imagen
+53003,Bird of Prey,Event,53. Falcon,Falcon,carta sin imagen
+53004,Bird's-Eye View,Event,53. Falcon,Falcon,carta sin imagen
+53005,"Up, Up, and Away",Event,53. Falcon,Falcon,carta sin imagen
+53006,Falcon's Flock,Support,53. Falcon,Falcon,carta sin imagen
+53007,Soup Kitchen,Support,53. Falcon,Falcon,carta sin imagen
+53008,Aerial Evacuation,Upgrade,53. Falcon,Falcon,carta sin imagen
+53009,Aerial Recon,Upgrade,53. Falcon,Falcon,carta sin imagen
+53010,Battlefield Awareness,Upgrade,53. Falcon,Falcon,carta sin imagen
+53011,Draw Their Fire,Upgrade,53. Falcon,Falcon,carta sin imagen
+53012,Talon Line,Upgrade,53. Falcon,Falcon,carta sin imagen
+53013,Vibranium Microweave,Upgrade,53. Falcon,Falcon,carta sin imagen
+53015,Aero,Ally,53. Falcon,,carta sin imagen
+53017,Hugin & Munin,Ally,53. Falcon,,carta sin imagen
+53018,Spectrum,Ally,53. Falcon,,carta sin imagen
+53019,Strength in Diversity,Event,53. Falcon,,carta sin imagen
+53020,Flight Squadron,Support,53. Falcon,,carta sin imagen
+53021,Resource Reserve,Support,53. Falcon,,carta sin imagen
+53023,Captain America,Upgrade,53. Falcon,,carta sin imagen
+53024,Wingman,Upgrade,53. Falcon,,carta sin imagen
+53029,Harlem's Protector,Obligation,53. Falcon,Falcon,carta sin imagen
+53030,Viper,Minion,53. Falcon,Falcon Nemesis,carta sin imagen
+53031,Serpent Solutions,SideScheme,53. Falcon,Falcon Nemesis,carta sin imagen
+53032,Serpent Soldier,Minion,53. Falcon,Falcon Nemesis,carta sin imagen
+53033,Adder-tisement,Treachery,53. Falcon,Falcon Nemesis,carta sin imagen
+53034,Captain America's Shield,Upgrade,53. Falcon,,carta sin imagen
+53035,Winter Soldier,Ally,53. Falcon,,carta sin imagen
+53036,Misty Knight,Ally,53. Falcon,,carta sin imagen
+53037,Ops Room,Support,53. Falcon,,carta sin imagen
+53038,Fixer,Minion,53. Falcon,Techno,carta sin imagen
+53039,Jet Pack,Attachment,53. Falcon,Techno,carta sin imagen
+53040,Tech-Pac,Attachment,53. Falcon,Techno,carta sin imagen
+53041,Technological Innovation,SideScheme,53. Falcon,Techno,carta sin imagen
+53042,Techno,Treachery,53. Falcon,Techno,carta sin imagen
+54001a,Winter Soldier,Hero,54. Winter Soldier,Winter Soldier,carta sin imagen
+54001b,Bucky Barnes,AlterEgo,54. Winter Soldier,Winter Soldier,carta sin imagen
+54002,Cybernetic Arm,Upgrade,54. Winter Soldier,Winter Soldier,carta sin imagen
+54003,Black Widow,Ally,54. Winter Soldier,Winter Soldier,carta sin imagen
+54004,Arm Block,Event,54. Winter Soldier,Winter Soldier,carta sin imagen
+54005,Metal Punch,Event,54. Winter Soldier,Winter Soldier,carta sin imagen
+54006,Electrical Discharge,Event,54. Winter Soldier,Winter Soldier,carta sin imagen
+54007,Safe House #30,Support,54. Winter Soldier,Winter Soldier,carta sin imagen
+54008,Silent Infiltration,Upgrade,54. Winter Soldier,Winter Soldier,carta sin imagen
+54009,Winter Armor,Upgrade,54. Winter Soldier,Winter Soldier,carta sin imagen
+54010,Winter Mask,Upgrade,54. Winter Soldier,Winter Soldier,carta sin imagen
+54011,Winter Rifle,Upgrade,54. Winter Soldier,Winter Soldier,carta sin imagen
+54012,Captain America,Ally,54. Winter Soldier,,carta sin imagen
+54013,Deathlok,Ally,54. Winter Soldier,,carta sin imagen
+54014,Firepower,Event,54. Winter Soldier,,carta sin imagen
+54016,Spoiling for a Fight,Event,54. Winter Soldier,,carta sin imagen
+54017,Aggressive Stance,Upgrade,54. Winter Soldier,,carta sin imagen
+54018,Bambino,Upgrade,54. Winter Soldier,,carta sin imagen
+54019,Man on the Wall,Upgrade,54. Winter Soldier,,carta sin imagen
+54020,S.H.I.E.L.D. Sidearm,Upgrade,54. Winter Soldier,,carta sin imagen
+54022,Super-Soldiers,Event,54. Winter Soldier,,carta sin imagen
+54023,"Winter, Widow, Soldier, Spy",Event,54. Winter Soldier,,carta sin imagen
+54027,Red Room Programming,Obligation,54. Winter Soldier,Winter Soldier,carta sin imagen
+54028,Crossbones,Minion,54. Winter Soldier,Winter Soldier Nemesis,carta sin imagen
+54029,Hydra Hit Squad,SideScheme,54. Winter Soldier,Winter Soldier Nemesis,carta sin imagen
+54030,High-Tech Armament,Attachment,54. Winter Soldier,Winter Soldier Nemesis,carta sin imagen
+54031,Hydra Mercenary,Minion,54. Winter Soldier,Winter Soldier Nemesis,carta sin imagen
+54032,White Widow,Ally,54. Winter Soldier,,carta sin imagen
+54033,S.H.I.E.L.D. Deputy,Upgrade,54. Winter Soldier,,carta sin imagen
+54034,Blizzard,Minion,54. Winter Soldier,Whiteout,carta sin imagen
+54035,Encased in Ice,Attachment,54. Winter Soldier,Whiteout,carta sin imagen
+54036,Slippery Conditions,SideScheme,54. Winter Soldier,Whiteout,carta sin imagen
+54037,Whiteout,Treachery,54. Winter Soldier,Whiteout,carta sin imagen
+55001,Enchantress,Villain,55. Trickster Takeover,Enchantress,carta sin imagen
+55002,Enchantress,Villain,55. Trickster Takeover,Enchantress,carta sin imagen
+55003,Enchantress,Villain,55. Trickster Takeover,Enchantress,carta sin imagen
+55004a,Prime Real Estate,MainScheme,55. Trickster Takeover,Enchantress,carta sin imagen
+55004b,Prime Real Estate,MainScheme,55. Trickster Takeover,Enchantress,carta sin imagen
+55005a,Sovereign Sorceress,MainScheme,55. Trickster Takeover,Enchantress,carta sin imagen
+55005b,Sovereign Sorceress,MainScheme,55. Trickster Takeover,Enchantress,carta sin imagen
+55006,Future of Despair,SideScheme,55. Trickster Takeover,Enchantress,carta sin imagen
+55007a,Hypnotic Gaze,Attachment,55. Trickster Takeover,Enchantress,carta sin imagen
+55007b,Trance of Envy,Attachment,55. Trickster Takeover,Enchantress,carta sin imagen
+55008a,Hypnotic Gaze,Attachment,55. Trickster Takeover,Enchantress,carta sin imagen
+55008b,Trance of Greed,Attachment,55. Trickster Takeover,Enchantress,carta sin imagen
+55009a,Hypnotic Gaze,Attachment,55. Trickster Takeover,Enchantress,carta sin imagen
+55009b,Trance of Pride,Attachment,55. Trickster Takeover,Enchantress,carta sin imagen
+55010a,Hypnotic Gaze,Attachment,55. Trickster Takeover,Enchantress,carta sin imagen
+55010b,Trance of Sloth,Attachment,55. Trickster Takeover,Enchantress,carta sin imagen
+55011a,Hypnotic Gaze,Attachment,55. Trickster Takeover,Enchantress,carta sin imagen
+55011b,Trance of Wrath,Attachment,55. Trickster Takeover,Enchantress,carta sin imagen
+55012,Alluring Call,Attachment,55. Trickster Takeover,Enchantress,carta sin imagen
+55013,Kiss of Temptation,Attachment,55. Trickster Takeover,Enchantress,carta sin imagen
+55014,Love Concoction,Attachment,55. Trickster Takeover,Enchantress,carta sin imagen
+55015,Seduced,Attachment,55. Trickster Takeover,Enchantress,carta sin imagen
+55016,Crown of the Enchantress,Attachment,55. Trickster Takeover,Enchantress,carta sin imagen
+55017,Enthralled Lackey,Minion,55. Trickster Takeover,Enchantress,carta sin imagen
+55018,Enthralled Brute,Minion,55. Trickster Takeover,Enchantress,carta sin imagen
+55019,Sindr,Minion,55. Trickster Takeover,Enchantress,carta sin imagen
+55020,Ulik,Minion,55. Trickster Takeover,Enchantress,carta sin imagen
+55021,Law of Attraction,SideScheme,55. Trickster Takeover,Enchantress,carta sin imagen
+55022,Spellbound,SideScheme,55. Trickster Takeover,Enchantress,carta sin imagen
+55023,"""Do My Bidding""",Treachery,55. Trickster Takeover,Enchantress,carta sin imagen
+55024,Magical Restraints,Treachery,55. Trickster Takeover,Enchantress,carta sin imagen
+55025,Spell Blast,Treachery,55. Trickster Takeover,Enchantress,carta sin imagen
+55026,Spell Shards,Treachery,55. Trickster Takeover,Enchantress,carta sin imagen
+55037,Draugr Buddy,Minion,55. Trickster Takeover,God of Lies,carta sin imagen
+55038,Grendell,Minion,55. Trickster Takeover,God of Lies,carta sin imagen
+55039,Malekith,Minion,55. Trickster Takeover,God of Lies,carta sin imagen
+55040,Minotaur,Minion,55. Trickster Takeover,God of Lies,carta sin imagen
+55041,The Mangog,Minion,55. Trickster Takeover,God of Lies,carta sin imagen
+55042,Fenris Wolf,Minion,55. Trickster Takeover,God of Lies,carta sin imagen
+55047,Lofty Goals,SideScheme,55. Trickster Takeover,God of Lies,carta sin imagen
+55056,Absorbing Man,Minion,55. Trickster Takeover,Trickster Magic,carta sin imagen
+55057,Titania,Minion,55. Trickster Takeover,Trickster Magic,carta sin imagen
+55058,Whirlwind,Minion,55. Trickster Takeover,Trickster Magic,carta sin imagen
+55059,Zzzax,Minion,55. Trickster Takeover,Trickster Magic,carta sin imagen
+55060,The Trickster Tango,SideScheme,55. Trickster Takeover,Trickster Magic,carta sin imagen
+55061,Puppet Master,SideScheme,55. Trickster Takeover,Trickster Magic,carta sin imagen
+55062,Love Triangle,Attachment,55. Trickster Takeover,Trickster Magic,carta sin imagen
+55063,Absorbing Man,Ally,55. Trickster Takeover,Trickster Magic,carta sin imagen
+55064,Titania,Ally,55. Trickster Takeover,Trickster Magic,carta sin imagen
+55065,Whirlwind,Ally,55. Trickster Takeover,Trickster Magic,carta sin imagen
+55066,Zzzax,Ally,55. Trickster Takeover,Trickster Magic,carta sin imagen
+56001a,Tigra,Hero,56. Civil War,Tigra,carta sin imagen
+56001b,Greer Nelson,AlterEgo,56. Civil War,Tigra,carta sin imagen
+56002,Moon Knight,Ally,56. Civil War,Tigra,carta sin imagen
+56003,Precinct HQ,Support,56. Civil War,Tigra,carta sin imagen
+56004,Cat's Head Amulet,Upgrade,56. Civil War,Tigra,carta sin imagen
+56005,Sharp Claws,Upgrade,56. Civil War,Tigra,carta sin imagen
+56006,Cat-Like Reflexes,Upgrade,56. Civil War,Tigra,carta sin imagen
+56007,Hunted,Upgrade,56. Civil War,Tigra,carta sin imagen
+56008,Tooth and Claw,Event,56. Civil War,Tigra,carta sin imagen
+56009,Feline Senses,Event,56. Civil War,Tigra,carta sin imagen
+56010,Two-Gun Kid,Ally,56. Civil War,,carta sin imagen
+56012,Air Cover,Support,56. Civil War,,carta sin imagen
+56013,Aggressive Conditioning,Upgrade,56. Civil War,,carta sin imagen
+56016,Coup de Grâce,Event,56. Civil War,,carta sin imagen
+56017,Savage Strike,Event,56. Civil War,,carta sin imagen
+56019,Yellow Jacket,Ally,56. Civil War,,carta sin imagen
+56023,In Too Deep,Obligation,56. Civil War,Tigra,carta sin imagen
+56024,The Hood,Minion,56. Civil War,Tigra Nemesis,carta sin imagen
+56025,Criminal Underworld,SideScheme,56. Civil War,Tigra Nemesis,carta sin imagen
+56026,The Hood's Mantle,Attachment,56. Civil War,Tigra Nemesis,carta sin imagen
+56027,Madame Masque,Minion,56. Civil War,Tigra Nemesis,carta sin imagen
+56028,Jigsaw,Minion,56. Civil War,Tigra Nemesis,carta sin imagen
+56029a,Hulkling,Hero,56. Civil War,Hulkling,carta sin imagen
+56029b,Teddy Altman,AlterEgo,56. Civil War,Hulkling,carta sin imagen
+56030,Wiccan,Ally,56. Civil War,Hulkling,carta sin imagen
+56031,Altman Residence,Support,56. Civil War,Hulkling,carta sin imagen
+56032,Winged Shape,Upgrade,56. Civil War,Hulkling,carta sin imagen
+56033,Hulk Shape,Upgrade,56. Civil War,Hulkling,carta sin imagen
+56034,Armored Shape,Upgrade,56. Civil War,Hulkling,carta sin imagen
+56035,Imitation Shape,Upgrade,56. Civil War,Hulkling,carta sin imagen
+56036,Alien Physiology,Upgrade,56. Civil War,Hulkling,carta sin imagen
+56037,Shapeshifter Strike,Event,56. Civil War,Hulkling,carta sin imagen
+56038,Armored Defense,Event,56. Civil War,Hulkling,carta sin imagen
+56039,Impersonation,Event,56. Civil War,Hulkling,carta sin imagen
+56040,Shapeshifter,Event,56. Civil War,Hulkling,carta sin imagen
+56041,Patriot,Ally,56. Civil War,,carta sin imagen
+56043,Hidden Base,Support,56. Civil War,,carta sin imagen
+56045,Excelsior,Upgrade,56. Civil War,,carta sin imagen
+56046,Defensive Conditioning,Upgrade,56. Civil War,,carta sin imagen
+56047,"""I Can Do This All Day""",Event,56. Civil War,,carta sin imagen
+56048,Taunt,Event,56. Civil War,,carta sin imagen
+56050,Cuts Both Ways,Event,56. Civil War,,carta sin imagen
+56052,Iron Lad,Ally,56. Civil War,,carta sin imagen
+56054,Complicated Lineage,Obligation,56. Civil War,Hulkling,carta sin imagen
+56055,Super Skrull,Minion,56. Civil War,Hulkling Nemesis,carta sin imagen
+56056,Skrull Business,SideScheme,56. Civil War,Hulkling Nemesis,carta sin imagen
+56057,Fantastic Powers,Attachment,56. Civil War,Hulkling Nemesis,carta sin imagen
+56058,You're Coming With Me!,Treachery,56. Civil War,Hulkling Nemesis,carta sin imagen
+56059,Iron Man,Leader,56. Civil War,Iron Man,carta sin imagen
+56060,Iron Man,Leader,56. Civil War,Iron Man,carta sin imagen
+56061,Iron Man,Leader,56. Civil War,Iron Man,carta sin imagen
+56062,Iron Man,Leader,56. Civil War,Iron Man,carta sin imagen
+56063a,Superhero Registration Act,MainScheme,56. Civil War,Registration,carta sin imagen
+56063b,Cut Off Support,MainScheme,56. Civil War,Registration,carta sin imagen
+56064a,Pro-Registration Tactics,MainScheme,56. Civil War,Registration,carta sin imagen
+56064b,Negative Zone Prison,MainScheme,56. Civil War,Registration,carta sin imagen
+56065,Powered Gauntlets,Attachment,56. Civil War,Iron Man,carta sin imagen
+56066,Rocket Boots,Attachment,56. Civil War,Iron Man,carta sin imagen
+56067,Mark V Helmet,Attachment,56. Civil War,Iron Man,carta sin imagen
+56068,Arc Reactor,Attachment,56. Civil War,Iron Man,carta sin imagen
+56069,Mark V Armor,Attachment,56. Civil War,Iron Man,carta sin imagen
+56070,Repulsor Blast,Treachery,56. Civil War,Iron Man,carta sin imagen
+56071,Supersonic Punch,Treachery,56. Civil War,Iron Man,carta sin imagen
+56072,Stark Tower,SideScheme,56. Civil War,Iron Man,carta sin imagen
+56073,Yellow Jacket,Minion,56. Civil War,Mighty Avengers,carta sin imagen
+56074,Wasp,Minion,56. Civil War,Mighty Avengers,carta sin imagen
+56075,U.S. Agent,Minion,56. Civil War,Mighty Avengers,carta sin imagen
+56076,Mighty Avengers,Treachery,56. Civil War,Mighty Avengers,carta sin imagen
+56077,Earth's Mightiest Heroes,SideScheme,56. Civil War,Mighty Avengers,carta sin imagen
+56078,Doc Samson,Minion,56. Civil War,The Initiative,carta sin imagen
+56079,Hellcat,Minion,56. Civil War,The Initiative,carta sin imagen
+56080,Drafted,Attachment,56. Civil War,The Initiative,carta sin imagen
+56081,Mighty Avengers,Treachery,56. Civil War,The Initiative,carta sin imagen
+56082,The Fifty State Initiative,SideScheme,56. Civil War,The Initiative,carta sin imagen
+56083,Maria Hill,Minion,56. Civil War,Maria Hill,carta sin imagen
+56084,Life Model Decoy,Attachment,56. Civil War,Maria Hill,carta sin imagen
+56085,Executive Order,Treachery,56. Civil War,Maria Hill,carta sin imagen
+56086,S.H.I.E.L.D. Helicarrier,SideScheme,56. Civil War,Maria Hill,carta sin imagen
+56087,Venom,Minion,56. Civil War,Dangerous Recruits,carta sin imagen
+56088,Bullseye,Minion,56. Civil War,Dangerous Recruits,carta sin imagen
+56089,Justice Like Lightning,Treachery,56. Civil War,Dangerous Recruits,carta sin imagen
+56090,Excessive Force,Treachery,56. Civil War,Dangerous Recruits,carta sin imagen
+56091,Dangerous Recruits,SideScheme,56. Civil War,Dangerous Recruits,carta sin imagen
+56092,Captain Marvel,Leader,56. Civil War,Captain Marvel,carta sin imagen
+56093,Captain Marvel,Leader,56. Civil War,Captain Marvel,carta sin imagen
+56094,Captain Marvel,Leader,56. Civil War,Captain Marvel,carta sin imagen
+56095,Captain Marvel,Leader,56. Civil War,Captain Marvel,carta sin imagen
+56096a,Superhero Registration Act,MainScheme,56. Civil War,Registration,carta sin imagen
+56096b,S.H.I.E.L.D. Recruits,MainScheme,56. Civil War,Registration,carta sin imagen
+56097a,Pro-Registration Tactics,MainScheme,56. Civil War,Registration,carta sin imagen
+56097b,Hunting Rebel Heroes,MainScheme,56. Civil War,Registration,carta sin imagen
+56098,Energy Channel,Attachment,56. Civil War,Captain Marvel,carta sin imagen
+56099,Captain Marvel's Helmet,Attachment,56. Civil War,Captain Marvel,carta sin imagen
+56100,Cosmic Flight,Attachment,56. Civil War,Captain Marvel,carta sin imagen
+56101,Photonic Blast,Treachery,56. Civil War,Captain Marvel,carta sin imagen
+56102,Crisis Interdiction,Treachery,56. Civil War,Captain Marvel,carta sin imagen
+56103,Energy Absorption,Treachery,56. Civil War,Captain Marvel,carta sin imagen
+56104,Alpha Flight Station,SideScheme,56. Civil War,Captain Marvel,carta sin imagen
+56105,Cape-Killer,Minion,56. Civil War,Cape-Killer,carta sin imagen
+56106,Unregistered Super,Obligation,56. Civil War,Cape-Killer,carta sin imagen
+56107,Bring Them In,Treachery,56. Civil War,Cape-Killer,carta sin imagen
+56108,Arrest Order,SideScheme,56. Civil War,Cape-Killer,carta sin imagen
+56109,S.H.I.E.L.D. Soldier,Minion,56. Civil War,Martial Law,carta sin imagen
+56110,Rapid Response,Treachery,56. Civil War,Martial Law,carta sin imagen
+56111,S.H.I.E.L.D. Patrol,SideScheme,56. Civil War,Martial Law,carta sin imagen
+56112,Colleen Wing,Minion,56. Civil War,Heroes for Hire,carta sin imagen
+56113,Shang-Chi,Minion,56. Civil War,Heroes for Hire,carta sin imagen
+56114,Unregistered Super,Obligation,56. Civil War,Heroes for Hire,carta sin imagen
+56115,Bounty Hunting,Treachery,56. Civil War,Heroes for Hire,carta sin imagen
+56116,Heroes for Hire,SideScheme,56. Civil War,Heroes for Hire,carta sin imagen
+56117,Paladin,Minion,56. Civil War,Paladin,carta sin imagen
+56118,Paladin's Pistol,Attachment,56. Civil War,Paladin,carta sin imagen
+56119,Bounty Hunting,Treachery,56. Civil War,Paladin,carta sin imagen
+56120,Government Contractor,SideScheme,56. Civil War,Paladin,carta sin imagen
+56121a,Superhero Registration Act,MainScheme,56. Civil War,Registration,carta sin imagen
+56121b,Homeland Security,MainScheme,56. Civil War,Registration,carta sin imagen
+56122a,Superhero Registration Act,MainScheme,56. Civil War,Registration,carta sin imagen
+56122b,Public Outrage,MainScheme,56. Civil War,Registration,carta sin imagen
+56123a,Pro-Registration Tactics,MainScheme,56. Civil War,Registration,carta sin imagen
+56123b,The Initiative,MainScheme,56. Civil War,Registration,carta sin imagen
+56124a,Pro-Registration Tactics,MainScheme,56. Civil War,Registration,carta sin imagen
+56124b,No Going Back,MainScheme,56. Civil War,Registration,carta sin imagen
+56125,Righteous Cause,Treachery,56. Civil War,Standard PVP,carta sin imagen
+56126,Whatever It Takes,Treachery,56. Civil War,Standard PVP,carta sin imagen
+56127,Targeted Strike,Treachery,56. Civil War,Standard PVP,carta sin imagen
+56128a,Choosing Sides,SideScheme,56. Civil War,Standard PVP,carta sin imagen
+56128b,Now It's Personal,Obligation,56. Civil War,Standard PVP,carta sin imagen
+56137,Captain America,Leader,56. Civil War,Captain America,carta sin imagen
+56138,Captain America,Leader,56. Civil War,Captain America,carta sin imagen
+56139,Captain America,Leader,56. Civil War,Captain America,carta sin imagen
+56140,Captain America,Leader,56. Civil War,Captain America,carta sin imagen
+56141a,Superhero Resistance,MainScheme,56. Civil War,Resistance,carta sin imagen
+56141b,Gathering Support,MainScheme,56. Civil War,Resistance,carta sin imagen
+56142a,Resistance Tactics,MainScheme,56. Civil War,Resistance,carta sin imagen
+56142b,Secret Avengers,MainScheme,56. Civil War,Resistance,carta sin imagen
+56143,Cap's Shield,Attachment,56. Civil War,Captain America,carta sin imagen
+56144,Cap's Helmet,Attachment,56. Civil War,Captain America,carta sin imagen
+56145,Super-Soldier Serum,Attachment,56. Civil War,Captain America,carta sin imagen
+56146,Shield Block,Treachery,56. Civil War,Captain America,carta sin imagen
+56147,Shield Toss,Treachery,56. Civil War,Captain America,carta sin imagen
+56148,Heroic Strike,Treachery,56. Civil War,Captain America,carta sin imagen
+56149,Fearless Determination,SideScheme,56. Civil War,Captain America,carta sin imagen
+56150,Falcon,Minion,56. Civil War,New Avengers,carta sin imagen
+56151,Hercules,Minion,56. Civil War,New Avengers,carta sin imagen
+56152,Goliath,Minion,56. Civil War,New Avengers,carta sin imagen
+56153,Freedom Fighters,Treachery,56. Civil War,New Avengers,carta sin imagen
+56154,New Avengers,SideScheme,56. Civil War,New Avengers,carta sin imagen
+56155,Black Panther,Minion,56. Civil War,Secret Avengers,carta sin imagen
+56156,Spectrum,Minion,56. Civil War,Secret Avengers,carta sin imagen
+56157,Freedom Fighters,Treachery,56. Civil War,Secret Avengers,carta sin imagen
+56158,Switching Sides,Treachery,56. Civil War,Secret Avengers,carta sin imagen
+56159,Secret Avengers,SideScheme,56. Civil War,Secret Avengers,carta sin imagen
+56160,Namor,Minion,56. Civil War,Namor,carta sin imagen
+56161,Neptune's Trident,Attachment,56. Civil War,Namor,carta sin imagen
+56162,Horn of Proteus,Attachment,56. Civil War,Namor,carta sin imagen
+56163,Imperius Rex!,Treachery,56. Civil War,Namor,carta sin imagen
+56164,Ruler of Atlantis,SideScheme,56. Civil War,Namor,carta sin imagen
+56165,Atlantean Guard,Minion,56. Civil War,Atlanteans,carta sin imagen
+56166,Atlanteans,Treachery,56. Civil War,Atlanteans,carta sin imagen
+56167,Atlantis Attacks,SideScheme,56. Civil War,Atlanteans,carta sin imagen
+56168,Spider-Woman,Leader,56. Civil War,Spider Woman,carta sin imagen
+56169,Spider-Woman,Leader,56. Civil War,Spider Woman,carta sin imagen
+56170,Spider-Woman,Leader,56. Civil War,Spider Woman,carta sin imagen
+56171,Spider-Woman,Leader,56. Civil War,Spider Woman,carta sin imagen
+56172a,Superhero Resistance,MainScheme,56. Civil War,Resistance,carta sin imagen
+56172b,Open Rebellion,MainScheme,56. Civil War,Resistance,carta sin imagen
+56173a,Resistance Tactics,MainScheme,56. Civil War,Resistance,carta sin imagen
+56173b,Neighborhood Protectors,MainScheme,56. Civil War,Resistance,carta sin imagen
+56174,Finesse,Attachment,56. Civil War,Spider Woman,carta sin imagen
+56175,Contaminant Immunity,Attachment,56. Civil War,Spider Woman,carta sin imagen
+56176,Pheromones,Treachery,56. Civil War,Spider Woman,carta sin imagen
+56177,Venom Blast,Treachery,56. Civil War,Spider Woman,carta sin imagen
+56178,Inconspicuous,Treachery,56. Civil War,Spider Woman,carta sin imagen
+56179,Self-propelled Glide,SideScheme,56. Civil War,Spider Woman,carta sin imagen
+56180,Spider-Man,Minion,56. Civil War,Spider-Man,carta sin imagen
+56181,Tangled Up,Attachment,56. Civil War,Spider-Man,carta sin imagen
+56182,Spectacular!,Treachery,56. Civil War,Spider-Man,carta sin imagen
+56183,Neighborhood Hero,SideScheme,56. Civil War,Spider-Man,carta sin imagen
+56184,Luke Cage,Minion,56. Civil War,Defenders,carta sin imagen
+56185,Jessica Jones,Minion,56. Civil War,Defenders,carta sin imagen
+56186,Protect the Innocent,Treachery,56. Civil War,Defenders,carta sin imagen
+56187,Street Defenders,Treachery,56. Civil War,Defenders,carta sin imagen
+56188,The Defenders,SideScheme,56. Civil War,Defenders,carta sin imagen
+56189,Daredevil,Minion,56. Civil War,Hell's Kitchen,carta sin imagen
+56190,Iron Fist,Minion,56. Civil War,Hell's Kitchen,carta sin imagen
+56191,Resistance Fighter,Attachment,56. Civil War,Hell's Kitchen,carta sin imagen
+56192,Street Defenders,Treachery,56. Civil War,Hell's Kitchen,carta sin imagen
+56193,Defend Hell's Kitchen,SideScheme,56. Civil War,Hell's Kitchen,carta sin imagen
+56194,Cloak,Minion,56. Civil War,Cloak & Dagger,carta sin imagen
+56195,Dagger,Minion,56. Civil War,Cloak & Dagger,carta sin imagen
+56196,Darkforce,Attachment,56. Civil War,Cloak & Dagger,carta sin imagen
+56197,Lightforce,Treachery,56. Civil War,Cloak & Dagger,carta sin imagen
+56198,Cloak and Dagger,SideScheme,56. Civil War,Cloak & Dagger,carta sin imagen
+56199a,Superhero Resistance,MainScheme,56. Civil War,Resistance,carta sin imagen
+56199b,Rallying Call,MainScheme,56. Civil War,Resistance,carta sin imagen
+56200a,Superhero Resistance,MainScheme,56. Civil War,Resistance,carta sin imagen
+56200b,Going Underground,MainScheme,56. Civil War,Resistance,carta sin imagen
+56203,Righteous Cause,Treachery,56. Civil War,Standard PVP,carta sin imagen
+56204,Whatever It Takes,Treachery,56. Civil War,Standard PVP,carta sin imagen
+2425_boss_rush,Boss Rush,Challenge,Weekly Challenges,,carta sin imagen
+59018,Deathcry,Ally,hercules,,carta sin imagen
+59019,Namora,Ally,hercules,,carta sin imagen
+59020,Thor,Ally,hercules,,carta sin imagen
+59022,Call for Backup,PlayerSideScheme,hercules,,carta sin imagen
+59023,Recruitment Drive,Support,hercules,,carta sin imagen
+59024,"""Avenge Me!""",Upgrade,hercules,,carta sin imagen
+58012,Firebird,Ally,wonder_man,,carta sin imagen
+58013,Hawkeye,Ally,wonder_man,,carta sin imagen
+58014,Scarlet Witch,Ally,wonder_man,,carta sin imagen
+58015,Sentry,Ally,wonder_man,,carta sin imagen
+58016,Battlefield Benevolence,Event,wonder_man,,carta sin imagen
+58017,Bombs Away,Event,wonder_man,,carta sin imagen
+58018,Everywhere All at Once,Event,wonder_man,,carta sin imagen
+58019,Stronger Together,Event,wonder_man,,carta sin imagen
+58020,Unified Strike,Event,wonder_man,,carta sin imagen
+58021,Heroic Conditioning,Upgrade,wonder_man,,carta sin imagen
+58030,Caught in the Crossfire,Upgrade,wonder_man,,carta sin imagen
+58031,Cameo,Support,wonder_man,,carta sin imagen
+58033,Disarming Defense,Event,wonder_man,,carta sin imagen
+minion,Minion,Minion,,,ficha / estado / genérica
+rule_a,rule,Insert,,,ficha / estado / genérica
+rule_b,rule,Insert,,,ficha / estado / genérica
+ultron_facedown_drone,Drone Minion,Minion,1. Core Set,,ficha / estado / genérica
+undead_minion,Undead Minion,Minion,21. The Mad Titan's Shadow,,ficha / estado / genérica
+enthralled_minion,Enthralled Minion,Minion,25. Valkyrie,,ficha / estado / genérica
+phoenix_controlled_ally,Controlled Ally,Ally,34. Phoenix,,ficha / estado / genérica
+controlled_minion,Controlled Minion,Minion,36. Storm,,ficha / estado / genérica
+karma_controlled_ally,Controlled Ally,Ally,38. Rogue,,ficha / estado / genérica
+possessed_minion,Possessed Minion,Minion,40. NeXt Evolution,,ficha / estado / genérica
+pool_minion,'Pool Minion,Minion,44. Deadpool,,ficha / estado / genérica
+regressed_minion,Regressed Minion,Minion,47. Jubilee,,ficha / estado / genérica
+reluctant_foe_elite_minion,Elite Minion,Minion,50. Agents of S.H.I.E.L.D.,Baron Zemo,ficha / estado / genérica
+redemption_redeemed_ally,Redeemed Ally,Ally,51. Black Panther,,ficha / estado / genérica
+wild,Wild,Challenge,endless,,ficha / estado / genérica
+confused,Confused,Status,status,,ficha / estado / genérica
+stunned,Stunned,Status,status,,ficha / estado / genérica
+tough,Tough,Status,status,,ficha / estado / genérica
+01144a,Android Efficiency,Treachery,1. Core Set,Ultron,otra cara de una carta que sí tiene imagen
+01144b,Android Efficiency,Treachery,1. Core Set,Ultron,otra cara de una carta que sí tiene imagen
+01144c,Android Efficiency,Treachery,1. Core Set,Ultron,otra cara de una carta que sí tiene imagen
