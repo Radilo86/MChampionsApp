@@ -3,7 +3,7 @@
 //  * adds COOP/COEP headers (needed for SharedArrayBuffer, i.e. for the blocking bridge to the Python engine)
 //  * emulates the routes of the original server: clean URLs (/scene -> scene.html) and card pictures (/01001a)
 //  * card pictures: user imported pack (Cache Storage) first, otherwise a generated SVG card
-const VERSION = "f23f11a9d6";
+const VERSION = "7433a62734";
 const CACHE = "marvel-app-" + VERSION;
 const USER_ASSETS = "marvel-user-assets";
 const PRECACHE = [

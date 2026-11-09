@@ -93,7 +93,10 @@ async function main() {
     window.marvelShell = shellApi(engine);
     publishCustomIndex(engine);
     const hash = decodeURIComponent(location.hash.slice(1));
-    frame.src = /^ui\//.test(hash) ? hash : "ui/main.html";
+    // one-shot start page (e.g. the card editor asks to come back to it after installing a pack and restarting)
+    const startPage = sessionStorage.getItem("marvel-start-page");
+    if (startPage) sessionStorage.removeItem("marvel-start-page");
+    frame.src = /^ui\//.test(hash) ? hash : (startPage && /^[a-z_]+\.html(\?[\w=&%-]*)?$/.test(startPage) ? "ui/" + startPage : "ui/main.html");
     frame.onload = () => { splash.classList.add("hidden"); frame.classList.add("visible"); };
     setupWakeLock();
 }
@@ -116,6 +119,12 @@ function shellApi(engine) {
         async clearAssets() { localStorage.removeItem("marvel-pack"); return caches.delete("marvel-user-assets"); },
         packInfo, installPack,
         portraitPhone, portraitTouch,
+        language: () => localStorage.getItem("marvel-lang") || "es",
+        setLanguage: async (lang) => {                 // interface (i18n.js) + engine texts (settings/idioma.json, read at boot)
+            localStorage.setItem("marvel-lang", lang);
+            await engine.store.put("settings/idioma.json", new TextEncoder().encode(JSON.stringify({ idioma: lang })));
+            location.reload();
+        },
         exportBackup: () => exportBackup(engine), importBackup: (file) => importBackup(engine, file),
         importContent: (file) => importContent(engine, file), removeContent: (id) => removeContent(engine, id),
         lastBackup: () => localStorage.getItem("marvel-last-backup"),

@@ -1,5 +1,5 @@
 {
-"version": "f23f11a9d6",
+"version": "7433a62734",
 "files": [
 {
 "path": "cards-index.json",
@@ -11,7 +11,7 @@
 },
 {
 "path": "engine.zip",
-"size": 2922798
+"size": 2936551
 },
 {
 "path": "fflate.min.js",
@@ -59,11 +59,11 @@
 },
 {
 "path": "shell.js",
-"size": 24595
+"size": 25343
 },
 {
 "path": "ui.zip",
-"size": 543815
+"size": 568295
 },
 {
 "path": "worker.js",
